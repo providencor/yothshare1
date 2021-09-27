@@ -3,15 +3,7 @@ const $ = new Env('youthshare');
 let md5 = require('md5-node');
 let nowTime;
 let wxck;
-let articles = ["https://focu.youth.cn/wapfivehot/20210926?sid=40216774&uid=50353965&timestamp=1632714388&signature=gbJynLeRd3VA29KYqE4gq2JJQhYEk3YaDNrGQloPXZzxvOB6jW&scene_id=fire_share&share_id=50353965402167741632714438&time=1632714438","https://focu.youth.cn/wapfivehot/20210924?
-
-sid=40201940&uid=50353965&timestamp=1632714462&signature=5NPeoJjl0pEAqLZYQM4q2wGMMHQYreQ7692Vrk3gBdwXDyWK8b&share_id=50353965402019401632714524482&scene_
-
-id=fire_share&time=1632714524","https://focu.youth.cn/wapfivehot/20210926?
-
-sid=40219601&uid=50353965&timestamp=1632729474&signature=EgVbkQOLMqvWm9RrG0a2e3M2jhVxPkV73xy6doZeXBJzln85PD&share_id=50353965402196011632729538752&scene_
-
-id=fire_share&time=1632729539"]
+let articles = ["https://focu.youth.cn/wapfivehot/20210926?sid=40216774&uid=50353965&timestamp=1632714388&signature=gbJynLeRd3VA29KYqE4gq2JJQhYEk3YaDNrGQloPXZzxvOB6jW&scene_id=fire_share&share_id=50353965402167741632714438&time=1632714438","https://focu.youth.cn/wapfivehot/20210924?sid=40201940&uid=50353965&timestamp=1632714462&signature=5NPeoJjl0pEAqLZYQM4q2wGMMHQYreQ7692Vrk3gBdwXDyWK8b&share_id=50353965402019401632714524482&scene_id=fire_share&time=1632714524","https://focu.youth.cn/wapfivehot/20210926?sid=40219601&uid=50353965&timestamp=1632729474&signature=EgVbkQOLMqvWm9RrG0a2e3M2jhVxPkV73xy6doZeXBJzln85PD&share_id=50353965402196011632729538752&scene_id=fire_share&time=1632729539"]
 
 
 let encodearticles;
